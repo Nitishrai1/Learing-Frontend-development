@@ -81,3 +81,14 @@ p:active{
     font-weight: bold;
 
 }
+input[type="radio"]:checked+label{
+    color:red;
+    font-weight: bold;
+    
+
+}
+
+/* nth-of-type */
+.post:nth-of-type(2){
+    background-color: beige;
+}
