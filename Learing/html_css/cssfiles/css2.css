@@ -1,0 +1,83 @@
+/* Selctors in css */
+/* universal selector */
+*{
+    font-family: 'Courier New', Courier, monospace;
+    /* color: blue; */
+}
+
+/* element selector */
+h1,h3{
+    color: #b92b27;
+}
+
+
+/* Id selectors */
+#signup{
+    border-radius: 30px;
+    background-color: #fff;
+
+}
+#login{
+    border-radius: 30px;
+    background-color: #fff;
+
+
+}
+
+/* class selector */
+/* .follow{
+    color:blueviolet
+} */
+
+#myId p{
+    color: green;
+}
+
+/* <!-- Descendent Selector --> */
+.para a{
+    color:rgb(197, 50, 153)
+}
+nav ul li a{
+    color:cyan
+}
+
+/* Adjacent Sibiling combinator */
+p+h3{  
+    /* select all the h3 which are imediately after <p> tag */
+    text-decoration: underline;
+
+}
+.upvote+button{
+    background-color:blue
+}
+
+/* Child combinator */
+span>button{
+    color:blueviolet;
+}
+
+/* Attribute selectors */
+input[type="text"]{
+    color:rgb(39, 165, 19)
+
+
+}
+input[type="password"]{
+    color:rgb(59, 128, 201)
+
+
+}
+
+/* Pseudo class */
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+button:active{
+    background-color:pink;
+}
+p:active{
+    font-weight: bold;
+
+}
