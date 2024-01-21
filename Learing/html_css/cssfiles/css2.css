@@ -89,6 +89,6 @@ input[type="radio"]:checked+label{
 }
 
 /* nth-of-type */
-.post:nth-of-type(2){
+div.post:nth-of-type(2){
     background-color: beige;
 }
