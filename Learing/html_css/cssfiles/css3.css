@@ -1,0 +1,30 @@
+/* padding: space betweent the text and the border of the box is called as padding */
+/* margin: space betweent the two element in the html page  */
+
+div{
+    border: 2px solid;
+    height: 100px;
+    border-color: blueviolet;
+    border-radius: 10px;
+    text-align: center;
+    width: auto;
+    margin: 10px;
+    padding: 50px;
+    border-style:solid;
+    /* display:inline; */
+    
+    
+    
+}
+h1{
+    border-width: 2px;
+    border-color: black;
+    text-align: center;
+    border-style: solid;
+    border-left-color: blueviolet;
+}
+button{
+    border-radius: 10px;
+    padding: 10px;
+
+}
