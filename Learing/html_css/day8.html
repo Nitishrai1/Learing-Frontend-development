@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height:100px;
+            width:90px;
+            background-color: greenyellow;
+            /* transition: 1s;               This help to slow down the hover effect  */
+            transition: 1s 1s ;
+            margin: auto;
+            margin-top: 10px;
+            transition-timing-function:cubic-bezier(1, 0, 0, 1);
+            transform: rotate(45deg);
+            
+        }
+        div:hover{
+            background-color: black;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+    
+</body>
+</html>
